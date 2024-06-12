@@ -36,7 +36,7 @@ a {
     background-image: url(/images/serene.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 200px;
+    height: 300px;
     opacity: 0.75;
     color: white;
     display: flex;
@@ -47,18 +47,38 @@ a {
 .welcome {
     display: flex;
     justify-content: center;
+    background-color: rgb(109, 32, 128);
+    color: white;
 }
 
 .about {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(109, 32, 128)
+}
+
+.column {
+    flex: 50%;
+    color: white;
+    justify-content: center;
+}
+
+
+#melissa {
+    border-radius: 10px;
+    margin: 30px;
+    width: 250px;
+    height: 300px;
 }
 
 .about p {
-    padding: 30px;
+    padding: 10px;
+    margin: px;
+    line-height: 25px;
 }
 
-#melissa {
-    width: 500px;
-    padding-left: 20px;
+.column h2 {
+    margin: 0;
 }
