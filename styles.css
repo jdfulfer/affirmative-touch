@@ -1,0 +1,64 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header {
+    width: 100%;
+    z-index: 1;
+    height: 200px;
+    background-color: white;
+    flex-direction: column;
+}
+
+header img {
+    height: 200px;
+    width: 400px;
+}
+
+
+a {
+    color: seashell;
+}
+
+.hero {
+    margin-top: 0px;
+    background-image: url(/images/serene.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    opacity: 0.75;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.welcome {
+    display: flex;
+    justify-content: center;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about p {
+    padding: 30px;
+}
+
+#melissa {
+    width: 500px;
+    padding-left: 20px;
+}
